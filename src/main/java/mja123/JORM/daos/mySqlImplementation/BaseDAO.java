@@ -20,7 +20,6 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
-import static mja123.JORM.daos.mySqlImplementation.enums.EAttributesEntities.*;
 import static mja123.JORM.daos.mySqlImplementation.utils.StringUtil.attributeToColumn;
 
 public class BaseDAO<T> implements IBaseDAO<T> {
